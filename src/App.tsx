@@ -10,7 +10,7 @@ import { Analyzer } from "./pages/home/analyzer"
 import { Data } from "./pages/home/data"
 import { Platform } from "./pages/home/platform"
 import { ProductFor } from "./pages/home/productFor"
-import { Form } from "./pages/home/form"
+import { Forms } from "./pages/home/form"
 import "./App.css"
 import { Footer } from "./components/Footer"
 
@@ -49,7 +49,7 @@ function App() {
         <Data />
         <Platform />
         <ProductFor />
-        <Form />
+        <Forms />
       </main>
       <Footer />
     </>
