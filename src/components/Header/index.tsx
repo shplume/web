@@ -43,7 +43,7 @@ export const Header = () => {
               themeMode === "dark" ? "text-blue-400" : "text-blue-600"
             }`}
           >
-            Industrialmind.ai
+            TaomoAI
           </a>
         </div>
 

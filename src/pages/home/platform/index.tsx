@@ -1,7 +1,7 @@
-import user from "@/assets/icon/user.png"
-import polygon from "@/assets/icon/polygon.png"
-import chart from "@/assets/icon/chart.png"
-import robot from "@/assets/icon/robot.png"
+import user from "@/assets/icon/user.png";
+import polygon from "@/assets/icon/polygon.png";
+import chart from "@/assets/icon/chart.png";
+import robot from "@/assets/icon/robot.png";
 
 export const Platform = () => {
   const features = [
@@ -21,7 +21,7 @@ export const Platform = () => {
       icon: <img src={robot} alt="Process Design" className="w-18 h-18" />,
       title: "Machine Learning",
     },
-  ]
+  ];
 
   return (
     <section className="w-full bg-black text-white py-20">
@@ -39,7 +39,7 @@ export const Platform = () => {
         {/* 平台名称展示 */}
         <div className="relative w-full max-w-4xl mx-auto mb-12 p-6 rounded-2xl border border-[#333] bg-gradient-to-b from-[#00FF3810] to-transparent">
           <h3 className="text-2xl md:text-3xl text-center font-semibold">
-            IndustrialMind Platform
+            Taomo Platform
           </h3>
         </div>
 
@@ -57,5 +57,5 @@ export const Platform = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};

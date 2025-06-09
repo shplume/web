@@ -1,17 +1,17 @@
-import { useState, useEffect } from "react"
-import logo from "../../../../public/logo.png"
+import { useState, useEffect } from "react";
+import logo from "../../../../public/logo.png";
 
 export const Header = () => {
-  const [isScrolled, setIsScrolled] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20)
-    }
+      setIsScrolled(window.scrollY > 20);
+    };
 
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <header
@@ -22,7 +22,7 @@ export const Header = () => {
       <div className="flex items-center">
         <img src={logo} alt="logo" className="h-[40px] md:h-[64px]" />
         <span className="text-lg md:text-2xl font-bold ml-2 md:ml-4">
-          IndustrialMind.ai
+          TaomoAI
         </span>
         <nav className="hidden md:block ml-8">
           <ul className="flex gap-6">
@@ -74,5 +74,5 @@ export const Header = () => {
         </a>
       </div>
     </header>
-  )
-}
+  );
+};
